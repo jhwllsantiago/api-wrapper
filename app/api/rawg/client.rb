@@ -1,15 +1,14 @@
 module Rawg
   class Client
-    def self.index directory
-      Request.call("get", "/#{directory}")
+    def self.get *args
+      Request.call("get", self.build_endpoint(args))
     end
 
-    def self.show directory, id
-      Request.call("get", "/#{directory}/#{id}")
-    end
-
-    def self.show_detail directory, id, sub_directory
-      Request.call("get", "/#{directory}/#{id}/#{sub_directory}")
+    private
+    def self.build_endpoint args
+      args.reduce("") do |endpoint, arg|
+        endpoint += "#{arg.prepend("/")}"
+      end
     end
   end
 end
