@@ -1,15 +1,11 @@
 module Rawg
   class Client
-    def self.creators
-      Request.call("get", "/creators")
+    def self.index directory
+      Request.call("get", "/#{directory}")
     end
 
-    def self.creator_roles
-      Request.call("get", "/creator-roles")
-    end
-
-    def self.show id
-      Request.call("get", "/creators/#{id}")
+    def self.show directory, id
+      Request.call("get", "/#{directory}/#{id}")
     end
   end
 end
