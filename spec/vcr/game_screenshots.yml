@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.rawg.io/api/games/3328/screenshots?key=09785b048b6240a08df44163b94af2a3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      User-Agent:
+      - rest-client/2.1.0 (linux-gnu x86_64) ruby/3.0.2p107
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.rawg.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 03 Feb 2023 15:20:44 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Allow:
+      - GET, POST, HEAD, OPTIONS
+      Path:
+      - api-screenshots-list
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Origin
+      Content-Language:
+      - en
+      Api-User:
+      - '667886'
+      X-Cache-Status:
+      - MISS
+      X-Server:
+      - api_rawg_io
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PswbApXSt%2B%2BUUS9w4v4U6vWfmQypZVTtAP0D%2F9epynQIIs0BcboJgMtRJg4F3LtFwmRLK8i0GeUhy%2FDv3b52hGRA77KVjAw0NOkRjwJ7SmoZympROu0JrRxPLTYN"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=0; includeSubDomains; preload
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 793c26f7d8bb24ad-HKG
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":6,"next":null,"previous":null,"results":[{"id":30336,"image":"https://media.rawg.io/media/screenshots/1ac/1ac19f31974314855ad7be266adeb500.jpg","width":1280,"height":720,"is_deleted":false},{"id":30337,"image":"https://media.rawg.io/media/screenshots/6a0/6a08afca95261a2fe221ea9e01d28762.jpg","width":1280,"height":720,"is_deleted":false},{"id":30338,"image":"https://media.rawg.io/media/screenshots/cdd/cdd31b6b4a687425a87b5ce231ac89d7.jpg","width":1280,"height":720,"is_deleted":false},{"id":30339,"image":"https://media.rawg.io/media/screenshots/862/862397b153221a625922d3bb66337834.jpg","width":1280,"height":720,"is_deleted":false},{"id":30340,"image":"https://media.rawg.io/media/screenshots/166/166787c442a45f52f4f230c33fd7d605.jpg","width":1280,"height":720,"is_deleted":false},{"id":30342,"image":"https://media.rawg.io/media/screenshots/f63/f6373ee614046d81503d63f167181803.jpg","width":1280,"height":720,"is_deleted":false}]}'
+  recorded_at: Fri, 03 Feb 2023 15:20:44 GMT
+recorded_with: VCR 6.1.0

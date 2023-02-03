@@ -1,0 +1,116 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.rawg.io/api/games/3328?key=09785b048b6240a08df44163b94af2a3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      User-Agent:
+      - rest-client/2.1.0 (linux-gnu x86_64) ruby/3.0.2p107
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.rawg.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 03 Feb 2023 15:10:21 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Allow:
+      - GET, PATCH, HEAD, OPTIONS
+      Path:
+      - api-game-detail
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Origin
+      Content-Language:
+      - en
+      Api-User:
+      - '667886'
+      X-Cache-Status:
+      - MISS
+      X-Server:
+      - api_rawg_io
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=smxRpGfCBDyz%2B6mp%2BS7F7EwY38GQuVNIVa2WJZuuCjf00k7t8YqFp%2BLFUanOs83oSuiBrWpR2hSYcRa5Dfv4kRnKXpq0bUl7aGug4Lo2t2WCFqrIW0Z3A24l9H8g"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=0; includeSubDomains; preload
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 793c17c489490ee8-HKG
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":3328,"slug":"the-witcher-3-wild-hunt","name":"The Witcher 3:
+        Wild Hunt","name_original":"The Witcher 3: Wild Hunt","description":"<p>The
+        third game in a series, it holds nothing back from the player. Open world
+        adventures of the renowned monster slayer Geralt of Rivia are now even on
+        a larger scale. Following the source material more accurately, this time Geralt
+        is trying to find the child of the prophecy, Ciri while making a quick coin
+        from various contracts on the side. Great attention to the world building
+        above all creates an immersive story, where your decisions will shape the
+        world around you.</p>\n<p>CD Project Red are infamous for the amount of work
+        they put into their games, and it shows, because aside from classic third-person
+        action RPG base game they provided 2 massive DLCs with unique questlines and
+        16 smaller DLCs, containing extra quests and items.</p>\n<p>Players praise
+        the game for its atmosphere and a wide open world that finds the balance between
+        fantasy elements and realistic and believable mechanics, and the game deserved
+        numerous awards for every aspect of the game, from music to direction.</p>","metacritic":92,"metacritic_platforms":[{"metascore":91,"url":"https://www.metacritic.com/game/xbox-one/the-witcher-3-wild-hunt","platform":{"platform":1,"name":"Xbox
+        One","slug":"xbox-one"}},{"metascore":93,"url":"https://www.metacritic.com/game/pc/the-witcher-3-wild-hunt","platform":{"platform":4,"name":"PC","slug":"pc"}},{"metascore":92,"url":"https://www.metacritic.com/game/playstation-4/the-witcher-3-wild-hunt","platform":{"platform":18,"name":"PlayStation
+        4","slug":"playstation4"}}],"released":"2015-05-18","tba":false,"updated":"2023-02-03T15:02:46","background_image":"https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg","background_image_additional":"https://media.rawg.io/media/screenshots/3e4/3e4576a772b3df47bfc52b86e4cf7e03.jpg","website":"https://thewitcher.com/en/witcher3","rating":4.66,"rating_top":5,"ratings":[{"id":5,"title":"exceptional","count":4575,"percent":77.74},{"id":4,"title":"recommended","count":927,"percent":15.75},{"id":3,"title":"meh","count":240,"percent":4.08},{"id":1,"title":"skip","count":143,"percent":2.43}],"reactions":{"1":51,"2":13,"3":49,"4":24,"5":14,"6":9,"7":15,"10":15,"11":17,"12":18,"14":1,"15":1,"16":3,"21":1},"added":17904,"added_by_status":{"yet":1018,"owned":10324,"beaten":4216,"toplay":711,"dropped":805,"playing":830},"playtime":46,"screenshots_count":107,"movies_count":0,"creators_count":34,"achievements_count":684,"parent_achievements_count":49,"reddit_url":"https://www.reddit.com/r/thewitcher3/","reddit_name":"r/thewitcher3","reddit_description":"A
+        subreddit for veterans and new fans alike of The Witcher 3: Wild Hunt as well
+        as for other Witcher games and the franchise in general. Everyone is welcome.","reddit_logo":"","reddit_count":8546,"twitch_count":188,"youtube_count":1000000,"reviews_text_count":84,"ratings_count":5801,"suggestions_count":657,"alternative_names":[],"metacritic_url":"https://www.metacritic.com/game/playstation-4/the-witcher-3-wild-hunt","parents_count":0,"additions_count":3,"game_series_count":8,"user_game":null,"reviews_count":5885,"saturated_color":"0f0f0f","dominant_color":"0f0f0f","parent_platforms":[{"platform":{"id":1,"name":"PC","slug":"pc"}},{"platform":{"id":2,"name":"PlayStation","slug":"playstation"}},{"platform":{"id":3,"name":"Xbox","slug":"xbox"}},{"platform":{"id":7,"name":"Nintendo","slug":"nintendo"}}],"platforms":[{"platform":{"id":186,"name":"Xbox
+        Series S/X","slug":"xbox-series-x","image":null,"year_end":null,"year_start":2020,"games_count":706,"image_background":"https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg"},"released_at":"2015-05-18","requirements":{}},{"platform":{"id":18,"name":"PlayStation
+        4","slug":"playstation4","image":null,"year_end":null,"year_start":null,"games_count":6565,"image_background":"https://media.rawg.io/media/games/456/456dea5e1c7e3cd07060c14e96612001.jpg"},"released_at":"2015-05-18","requirements":{}},{"platform":{"id":7,"name":"Nintendo
+        Switch","slug":"nintendo-switch","image":null,"year_end":null,"year_start":null,"games_count":5150,"image_background":"https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"},"released_at":"2015-05-18","requirements":{}},{"platform":{"id":4,"name":"PC","slug":"pc","image":null,"year_end":null,"year_start":null,"games_count":521362,"image_background":"https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg"},"released_at":"2015-05-18","requirements":{}},{"platform":{"id":1,"name":"Xbox
+        One","slug":"xbox-one","image":null,"year_end":null,"year_start":null,"games_count":5474,"image_background":"https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"},"released_at":"2015-05-18","requirements":{}},{"platform":{"id":187,"name":"PlayStation
+        5","slug":"playstation5","image":null,"year_end":null,"year_start":2020,"games_count":787,"image_background":"https://media.rawg.io/media/games/5ec/5ecac5cb026ec26a56efcc546364e348.jpg"},"released_at":"2015-05-18","requirements":{}}],"stores":[{"id":354780,"url":"","store":{"id":5,"name":"GOG","slug":"gog","domain":"gog.com","games_count":4793,"image_background":"https://media.rawg.io/media/games/6cd/6cd653e0aaef5ff8bbd295bf4bcb12eb.jpg"}},{"id":3565,"url":"","store":{"id":3,"name":"PlayStation
+        Store","slug":"playstation-store","domain":"store.playstation.com","games_count":7792,"image_background":"https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"}},{"id":305376,"url":"","store":{"id":1,"name":"Steam","slug":"steam","domain":"store.steampowered.com","games_count":71575,"image_background":"https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg"}},{"id":312313,"url":"","store":{"id":2,"name":"Xbox
+        Store","slug":"xbox-store","domain":"microsoft.com","games_count":4755,"image_background":"https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg"}},{"id":676022,"url":"","store":{"id":6,"name":"Nintendo
+        Store","slug":"nintendo","domain":"nintendo.com","games_count":8868,"image_background":"https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"}}],"developers":[{"id":9023,"name":"CD
+        PROJEKT RED","slug":"cd-projekt-red","games_count":21,"image_background":"https://media.rawg.io/media/games/28c/28ce1a73ae674945e2e43229da1c9a97.jpg"}],"genres":[{"id":4,"name":"Action","slug":"action","games_count":173258,"image_background":"https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"},{"id":3,"name":"Adventure","slug":"adventure","games_count":133025,"image_background":"https://media.rawg.io/media/games/960/960b601d9541cec776c5fa42a00bf6c4.jpg"},{"id":5,"name":"RPG","slug":"role-playing-games-rpg","games_count":52598,"image_background":"https://media.rawg.io/media/games/d0f/d0f91fe1d92332147e5db74e207cfc7a.jpg"}],"tags":[{"id":31,"name":"Singleplayer","slug":"singleplayer","language":"eng","games_count":201988,"image_background":"https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"},{"id":40836,"name":"Full
+        controller support","slug":"full-controller-support","language":"eng","games_count":13563,"image_background":"https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg"},{"id":13,"name":"Atmospheric","slug":"atmospheric","language":"eng","games_count":28091,"image_background":"https://media.rawg.io/media/games/328/3283617cb7d75d67257fc58339188742.jpg"},{"id":42,"name":"Great
+        Soundtrack","slug":"great-soundtrack","language":"eng","games_count":3226,"image_background":"https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"},{"id":24,"name":"RPG","slug":"rpg","language":"eng","games_count":16407,"image_background":"https://media.rawg.io/media/games/d82/d82990b9c67ba0d2d09d4e6fa88885a7.jpg"},{"id":118,"name":"Story
+        Rich","slug":"story-rich","language":"eng","games_count":17538,"image_background":"https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg"},{"id":36,"name":"Open
+        World","slug":"open-world","language":"eng","games_count":6028,"image_background":"https://media.rawg.io/media/games/15c/15c95a4915f88a3e89c821526afe05fc.jpg"},{"id":149,"name":"Third
+        Person","slug":"third-person","language":"eng","games_count":8896,"image_background":"https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg"},{"id":64,"name":"Fantasy","slug":"fantasy","language":"eng","games_count":23785,"image_background":"https://media.rawg.io/media/games/4e6/4e6e8e7f50c237d76f38f3c885dae3d2.jpg"},{"id":37,"name":"Sandbox","slug":"sandbox","language":"eng","games_count":5774,"image_background":"https://media.rawg.io/media/games/960/960b601d9541cec776c5fa42a00bf6c4.jpg"},{"id":97,"name":"Action
+        RPG","slug":"action-rpg","language":"eng","games_count":5603,"image_background":"https://media.rawg.io/media/games/3cf/3cff89996570cf29a10eb9cd967dcf73.jpg"},{"id":41,"name":"Dark","slug":"dark","language":"eng","games_count":13610,"image_background":"https://media.rawg.io/media/games/ebd/ebdbb7eb52bd58b0e7fa4538d9757b60.jpg"},{"id":44,"name":"Nudity","slug":"nudity","language":"eng","games_count":4500,"image_background":"https://media.rawg.io/media/games/260/26023c855f1769a93411d6a7ea084632.jpeg"},{"id":336,"name":"controller
+        support","slug":"controller-support","language":"eng","games_count":293,"image_background":"https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"},{"id":145,"name":"Choices
+        Matter","slug":"choices-matter","language":"eng","games_count":3097,"image_background":"https://media.rawg.io/media/games/07a/07a74470a2618fd71945db0619602baf.jpg"},{"id":192,"name":"Mature","slug":"mature","language":"eng","games_count":1903,"image_background":"https://media.rawg.io/media/games/471/4712c9ac591f556f553556b864a7e92b.jpg"},{"id":40,"name":"Dark
+        Fantasy","slug":"dark-fantasy","language":"eng","games_count":3060,"image_background":"https://media.rawg.io/media/games/639/639ce7d7fecbb9f0717e9fbc1180f8f8.jpg"},{"id":66,"name":"Medieval","slug":"medieval","language":"eng","games_count":5114,"image_background":"https://media.rawg.io/media/games/e40/e40cc9d1957b0a0ed7e389834457b524.jpg"},{"id":82,"name":"Magic","slug":"magic","language":"eng","games_count":7823,"image_background":"https://media.rawg.io/media/games/b17/b175178f8842276b8b18b339fe3146a1.jpg"},{"id":218,"name":"Multiple
+        Endings","slug":"multiple-endings","language":"eng","games_count":6670,"image_background":"https://media.rawg.io/media/games/4e6/4e6e8e7f50c237d76f38f3c885dae3d2.jpg"}],"publishers":[{"id":7411,"name":"CD
+        PROJEKT RED","slug":"cd-projekt-red","games_count":23,"image_background":"https://media.rawg.io/media/screenshots/1dc/1dcbc96751f533a2d68f3f5175a21a5c_xaOqEw4.jpg"}],"esrb_rating":{"id":4,"name":"Mature","slug":"mature"},"clip":null,"description_raw":"The
+        third game in a series, it holds nothing back from the player. Open world
+        adventures of the renowned monster slayer Geralt of Rivia are now even on
+        a larger scale. Following the source material more accurately, this time Geralt
+        is trying to find the child of the prophecy, Ciri while making a quick coin
+        from various contracts on the side. Great attention to the world building
+        above all creates an immersive story, where your decisions will shape the
+        world around you.\n\nCD Project Red are infamous for the amount of work they
+        put into their games, and it shows, because aside from classic third-person
+        action RPG base game they provided 2 massive DLCs with unique questlines and
+        16 smaller DLCs, containing extra quests and items.\n\nPlayers praise the
+        game for its atmosphere and a wide open world that finds the balance between
+        fantasy elements and realistic and believable mechanics, and the game deserved
+        numerous awards for every aspect of the game, from music to direction."}'
+  recorded_at: Fri, 03 Feb 2023 15:10:21 GMT
+recorded_with: VCR 6.1.0
