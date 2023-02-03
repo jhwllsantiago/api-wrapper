@@ -21,8 +21,9 @@ class Api::GamesController < ApplicationController
 
   private
   def set_query
-    search_options = { search_precise: true, search_exact: true }
-    @query = params.permit(:page, :search, :stores, :developers, :genres, :creators, :dates, :ordering).to_h.compact_blank.merge(search_options)
+    permitted_params = [:page, :search, :stores, :developers, :genres, :creators, :dates, :ordering]
+    search_options = params[:search] ? { search_precise: true, search_exact: true } : {}
+    @query = params.permit(permitted_params).to_h.compact_blank.merge(search_options)
   end
 
   def set_game_id
