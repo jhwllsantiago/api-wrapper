@@ -1,7 +1,7 @@
 module Rawg
   class Client
-    def self.get *args
-      Request.call("get", self.build_endpoint(args))
+    def self.get *args, query: {}
+      Request.call("get", self.build_endpoint(args), query)
     end
 
     private
