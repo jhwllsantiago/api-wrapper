@@ -47,10 +47,10 @@ class Api::GamesController < ApplicationController
       "monthly": 1.month.ago.strftime('%Y-%m-%d'),
       "yearly": 1.year.ago.strftime('%Y-%m-%d'),
     }
-    if timespan == "all-time" or offset.has_key?(timespan.to_sym)
+    if timespan == "all-time" or offset.has_key?(timespan&.to_sym)
       @query.merge!(ordering: "-metacritic").except!(:timespan)
     end
-    if offset.has_key?(timespan.to_sym)
+    if offset.has_key?(timespan&.to_sym)
       @query.merge!(dates: "#{offset[timespan.to_sym]},#{Time.zone.now.strftime('%Y-%m-%d')}")
     end
   end
