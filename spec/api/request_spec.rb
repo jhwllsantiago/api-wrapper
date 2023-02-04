@@ -5,8 +5,8 @@ describe Rawg::Request do
     TOKEN = Rails.application.credentials.api_key.rawg
     response = double(Object)
     allow(response).to receive(:code).and_return(200)
-    allow(response).to receive(:body).and_return("")
-    allow(JSON).to receive(:parse).and_return("")
+    allow(response).to receive(:body).and_return({})
+    allow(JSON).to receive(:parse).and_return({})
     allow(RestClient::Request).to receive(:execute).and_return(response)
   end
 

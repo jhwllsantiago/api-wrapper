@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.rawg.io/api/pneumonoultramicroscopicsilicovolcanoconiosis?key=09785b048b6240a08df44163b94af2a3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      User-Agent:
+      - rest-client/2.1.0 (linux-gnu x86_64) ruby/3.0.2p107
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.rawg.io
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Sat, 04 Feb 2023 02:53:05 GMT
+      Content-Type:
+      - text/html
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Origin
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Language:
+      - en
+      Api-User:
+      - ''
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dD76k2DgoreOBZ0tUo%2B918RKp5FjJuuFuOFktS4%2FcDQ3icboSqG9n7qMMQpG93vmRysVoGNAO6G07FvsXUhtsegDDJ1%2BxnNYM3jUcnexgPYdad3DXK0fGKvPSakp"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=0; includeSubDomains; preload
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 79401d12dd3e0eb8-HKG
+    body:
+      encoding: ASCII-8BIT
+      string: "<h1>Not Found</h1><p>The requested resource was not found on this server.</p>"
+  recorded_at: Sat, 04 Feb 2023 02:53:05 GMT
+recorded_with: VCR 6.1.0

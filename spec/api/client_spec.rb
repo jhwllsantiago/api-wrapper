@@ -27,4 +27,13 @@ describe Rawg::Client, vcr: true do
       expect(response[:data]["results"].first.is_a?(Hash)).to eq true
     end
   end
+
+  it "shows 'not found' error" do
+    VCR.use_cassette("invalid_request") do
+      response = Rawg::Client.get("pneumonoultramicroscopicsilicovolcanoconiosis")
+      expect(response[:code]).to eq 404
+      expect(response[:data].is_a?(String)).to eq true
+      expect(response[:data]["results"]).to eq nil
+    end
+  end
 end
